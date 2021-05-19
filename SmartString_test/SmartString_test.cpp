@@ -8,6 +8,7 @@
 
 
 
+
 int main()
 {
     SmartString testStr("   gyy ");
