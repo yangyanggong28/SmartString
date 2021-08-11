@@ -1,0 +1,110 @@
+*{
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./images/paper.jpg) left top repeat;
+}
+
+header {
+    background: url(./images/disabled_boy.jpg) left top no-repeat, 
+    url(./images/disabled_children.jpg) center no-repeat, 
+    url(./images/disabled_girl.jpg) right top no-repeat;
+    background-size: 620px, 700px, 620px;
+    height: 20em;
+}
+header nav {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right:1px solid #bbb;
+} 
+header nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+header nav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+h1 {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+section {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+input[type=submit ] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: x-large;
+}
+input[type=submit]:hover {
+    background-color: #45a047;
+}
+h3 {
+    text-align: center;
+}
+p {
+    padding: 10px 20px;
+}
+span {
+    font-size:smaller;
+    float: right;
+}
+.circle {
+    height: 55px;
+    width: 55px;
+    border-radius: 25px; 
+    background-color: #4CAF50;;  
+    position: absolute;
+    top: 0;
+    left: 46%;
+    font-size: 30px;
+    text-align: center;
+}
+.circle:hover:not(.active) {
+    background-color: skyblue;
+}
+input[type=text] {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size:large;
+}
+img {
+    display: inline-block;
+    border-radius: 100px;
+    opacity: 0.85;
+}
+footer{
+    height: 5em;
+    width:100%;
+    background-color:skyblue;
+}
+footer nav {
+    display: inline-block;
+    border-right: 1px solid #bbb;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 50px;
+}
