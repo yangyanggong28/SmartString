@@ -1,0 +1,2 @@
+# SmartString
+C++ trim string 
